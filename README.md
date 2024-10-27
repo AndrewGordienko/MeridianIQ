@@ -9,6 +9,7 @@ This project provides a tool to process addresses and retrieve latitude and long
 - Processes addresses from an input file and determines city, state/province, and country.
 - Retrieves latitude and longitude based on city and state/province for Canadian and U.S. addresses using postal code datasets.
 - Utilizes a language model (`OllamaLLM`) to extract city and state information from address strings.
+- Utilizes Google Search as a backup for finding location.
 - Outputs the result in the format: `City / State or Province / Latitude / Longitude`.
 - Handles and logs failed lookups for further investigation.
 
