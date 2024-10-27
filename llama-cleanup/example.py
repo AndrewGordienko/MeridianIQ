@@ -7,5 +7,5 @@ address_lookup = AddressLookup(
 )
 
 # Test the lookup method
-result = address_lookup.lookup("bridge street and church street camp robinson on l6m 4x2")
+result = address_lookup.lookup("bridge street and church street camp robinson on m6m 4x2")
 print(result)
